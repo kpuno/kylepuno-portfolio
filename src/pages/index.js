@@ -74,7 +74,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
+                                <h3>React GraphQL</h3>
                                 <p>Personal Project</p>
                             </header>
                             <Link to="/projects/reactgraphql" className="link primary"></Link>
