@@ -41,7 +41,7 @@ const Isp = (props) => (
                               predictions of the stock off the formulas used against those stock.  By being able to combine most of the current applications and 
                               added features, people will be more confident choosing stocks using this application.</p>
                             <ul className="actions">
-                                <li><a href="https://www.intelligent-stock-picker.io" className="button">Link</a></li>
+                                <li><a target="_blank" href="https://www.intelligent-stock-picker.io" className="button">Link</a></li>
                             </ul>
                         </div>
                     </div>

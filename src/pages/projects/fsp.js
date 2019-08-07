@@ -39,7 +39,7 @@ const Fsp = (props) => (
                             <p>Admin panel that allows the admin to create games and customize the PWA associated with it. 
                                 The admin is able to customize all the strings in the PWA, as well as the fonts, colors, and image assets.</p>
                             <ul className="actions">
-                                <li><a href="https://admin.fantasysports.productions" className="button">Admin Panel</a></li>
+                                <li><a target="_blank" href="https://admin.fantasysports.productions" className="button">Admin Panel</a></li>
                             </ul>
                         </div>
                     </div>

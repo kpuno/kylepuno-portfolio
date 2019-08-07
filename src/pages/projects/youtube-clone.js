@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 import BannerLanding from '../../components/BannerLanding'
 
-import pic08 from '../../assets/images/ap-mobile.png'
+import pic08 from '../../assets/images/youtube-mobile.png'
 
-const Autopulse = (props) => (
+const YTClone = (props) => (
     <Layout>
         <Helmet>
             <title>Kyle Puno Portfolio</title>
@@ -14,8 +14,8 @@ const Autopulse = (props) => (
         </Helmet>
 
         <BannerLanding 
-            title={'Autopulse'}
-            description={'PWA with responsive design for desktop and mobile'}/>
+            title={'YTClone'}
+            description={'Youtube Clone'}/>
 
         <div id="main">
             <section id="one">
@@ -23,7 +23,7 @@ const Autopulse = (props) => (
                     <header className="major">
                         <h2>Technologies</h2>
                     </header>
-                    <p>React, Redux, neutrino.js, material-ui, axios</p>
+                    <p>React, Redux, material-ui, axios, youtube api</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -36,9 +36,10 @@ const Autopulse = (props) => (
                             <header className="major">
                                 <h3>Brief Description</h3>
                             </header>
-                            <p>This application allowed the user to query cars scraped from kijiji, autotrader and craigslist.</p>
+                            <p>Basic youtube clone allows you to query and watch youtube videos and displays the top 5 videos.</p>
                             <ul className="actions">
-                                <li><a target="_blank" href="https://www.autopulse.io" className="button">PWA</a></li>
+                                <li><a target="_blank" href="https://youtube-clone-kylepuno.netlify.com/" className="button">Link</a></li>
+                                <li><a target="_blank" href="https://github.com/kpuno/basic-youtube-clone" className="button">GIT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,4 +50,4 @@ const Autopulse = (props) => (
     </Layout>
 )
 
-export default Autopulse
+export default YTClone

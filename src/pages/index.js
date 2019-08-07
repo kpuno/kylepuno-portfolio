@@ -10,6 +10,7 @@ import pic03 from '../assets/images/fsp-admin1.png'
 import pic04 from '../assets/images/isp.png'
 import pic05 from '../assets/images/reactssr.png'
 import pic06 from '../assets/images/pic06.jpg'
+import pic07 from '../assets/images/youtube-desktop.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -78,6 +79,13 @@ class HomeIndex extends React.Component {
                                 <p>Personal Project</p>
                             </header>
                             <Link to="/projects/reactgraphql" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${pic07})`}}>
+                            <header className="major">
+                                <h3>Youtube Clone</h3>
+                                <p>Personal Project</p>
+                            </header>
+                            <Link to="/projects/youtube-clone" className="link primary"></Link>
                         </article>
                     </section>
                 </div>

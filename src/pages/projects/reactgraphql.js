@@ -38,7 +38,7 @@ const Autopulse = (props) => (
                             </header>
                             <p>Basic application that uses GraphQL's schema to define relations between data objects, authentication in GraphQL and integrate GraphQL with React.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">Link</a></li>
+                                {/* <li><a target="_blank" href="#" className="button">Link</a></li> */}
                             </ul>
                         </div>
                     </div>

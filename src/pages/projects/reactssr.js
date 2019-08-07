@@ -39,7 +39,7 @@ const Autopulse = (props) => (
                             <p>Users can log in through OAuth to view a list of Admins. If the user is not logged in, they can only view the list of Users. 
                               Just a basic application to practice server-side-rendering.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">Link</a></li>
+                                {/* <li><a target="_blank" href="#" className="button">Link</a></li> */}
                             </ul>
                         </div>
                     </div>
