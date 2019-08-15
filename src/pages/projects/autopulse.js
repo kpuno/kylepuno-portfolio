@@ -23,7 +23,7 @@ const Autopulse = (props) => (
                     <header className="major">
                         <h2>Technologies</h2>
                     </header>
-                    <p>React, Redux, neutrino.js, material-ui, axios</p>
+                    <p>React, Redux, neutrino.js, material-ui, axios, gsap</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
